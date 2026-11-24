@@ -1,0 +1,14 @@
+\begin{tabular}{lccccccc}\toprule
+Method & ADE$_1$ & FDE$_1$ & Coll. (\%) & Fr\'echet $\downarrow$ & Path (m) & Tort. & Tort.$_{\mathrm{real}}$ \\ \midrule
+Constant velocity (det.) & 0.534 & 1.148 & 6.407 & 0.220 & 3.109 & 1.000 & 1.040 \\
+Social Force Model & 0.712 & 1.339 & 0.008 & 0.364 & 3.328 & 1.039 & 1.040 \\
+LSTM (K-mode) & 0.548 & 1.152 & 6.416 & 0.211 & 3.170 & 1.014 & 1.040 \\
+Transformer (no RAMG/SGT/MET) & 0.542 & 1.141 & 6.320 & 0.208 & 3.166 & 1.016 & 1.040 \\
+NSRF-T w/o RAMG & 0.535 & 1.112 & 1.903 & 0.215 & 3.183 & 1.024 & 1.040 \\
+NSRF-T w/o SGT & 0.544 & 1.143 & 2.171 & 0.212 & 3.172 & 1.019 & 1.040 \\
+NSRF-T w/o MET & 0.541 & 1.120 & 1.943 & 0.213 & 3.174 & 1.020 & 1.040 \\
+NSRF-T w/o NSRE & 0.541 & 1.118 & 6.178 & 0.214 & 3.179 & 1.022 & 1.040 \\
+NSRF-T (full) & 0.544 & 1.128 & 1.922 & 0.214 & 3.183 & 1.023 & 1.040 \\
+NSRF-T v2 w/o diffusion refinement & 0.540 & 1.122 & 2.018 & 0.214 & 3.182 & 1.023 & 1.040 \\
+NSRF-T v2 (full) & 0.544 & 1.139 & 1.990 & 0.213 & 3.175 & 1.020 & 1.040 \\
+\bottomrule\end{tabular}

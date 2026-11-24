@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+message: "If you use this code or these results, please cite them as below."
+title: "EACrowd: A Retrieval-Augmented Neuro-Symbolic Social Graph Transformer Framework for Emotionally Adaptive Crowd Behavior Simulation"
+type: software
+authors:
+  - given-names: Nishant
+    family-names: Singh
+  - given-names: Vivek
+    family-names: Kumar
+    orcid: "https://orcid.org/0000-0001-8868-335X"
+  - given-names: Sachin
+    family-names: Upadhyay
+  - given-names: Akash
+    family-names: Yadav
+  - given-names: Lekhraj
+    family-names: Chaudhary
+repository-code: "https://github.com/HPC-Lab-Works/EACrowd"
+license: MIT
+version: "1.0.0"
+date-released: "2026-11-24"

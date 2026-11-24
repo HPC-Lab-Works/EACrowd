@@ -1,0 +1,10 @@
+\begin{tabular}{lccccccc}\toprule
+Method & Human-likeness (HLS) $\uparrow$ & Group-fraction error vs real $\downarrow$ & Collision rate (normal) $\downarrow$ & Route length / geodesic & Tasks per agent-hour $\uparrow$ & Tasks per staff/patient-hour $\uparrow$ & ms / step \\ \midrule
+NeuroSocial-RAGFormer & 92.0 $\pm$ 0.4 & 0.175 $\pm$ 0.003 & 0.0029 $\pm$ 0.0004 & 1.38 $\pm$ 0.01 & 14.7 $\pm$ 1.2 & 14.5 $\pm$ 1.3 & 48.0 $\pm$ 7.0 \\
+w/o RAMG & 89.8 $\pm$ 0.2 & 0.180 $\pm$ 0.001 & 0.0020 $\pm$ 0.0001 & 1.40 $\pm$ 0.01 & 10.4 $\pm$ 0.5 & 10.0 $\pm$ 0.5 & 42.1 $\pm$ 0.8 \\
+w/o MET & 92.9 $\pm$ 0.2 & 0.167 $\pm$ 0.003 & 0.0025 $\pm$ 0.0002 & 1.39 $\pm$ 0.01 & 13.4 $\pm$ 0.2 & 13.4 $\pm$ 0.3 & 47.1 $\pm$ 5.3 \\
+w/o SGT & 91.9 $\pm$ 0.2 & 0.174 $\pm$ 0.002 & 0.0025 $\pm$ 0.0002 & 1.39 $\pm$ 0.01 & 15.2 $\pm$ 0.7 & 15.1 $\pm$ 0.7 & 45.6 $\pm$ 5.0 \\
+w/o NSRE & 93.1 $\pm$ 0.2 & 0.142 $\pm$ 0.003 & 0.0042 $\pm$ 0.0008 & 1.37 $\pm$ 0.01 & 13.9 $\pm$ 1.7 & 13.8 $\pm$ 1.7 & 47.9 $\pm$ 6.5 \\
+w/o PPO (NSRE rules only) & 93.7 $\pm$ 0.0 & 0.177 $\pm$ 0.001 & 0.0080 $\pm$ 0.0004 & 1.50 $\pm$ 0.01 & 19.8 $\pm$ 0.3 & 20.2 $\pm$ 0.4 & 49.6 $\pm$ 25.7 \\
+v1 + task reward only & 93.1 $\pm$ 0.4 & 0.171 $\pm$ 0.002 & 0.0030 $\pm$ 0.0003 & 1.41 $\pm$ 0.01 & 16.8 $\pm$ 1.2 & 16.7 $\pm$ 1.2 & 47.7 $\pm$ 9.6 \\
+\bottomrule\end{tabular}

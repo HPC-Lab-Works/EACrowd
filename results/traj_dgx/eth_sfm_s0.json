@@ -1,0 +1,43 @@
+{
+ "scene": "eth",
+ "model": "sfm",
+ "seed": 0,
+ "config": {
+  "data": "data/raw",
+  "scene": "eth",
+  "model": "sfm",
+  "epochs": 100,
+  "bs": 32,
+  "lr": 0.001,
+  "d": 256,
+  "heads": 8,
+  "K": 20,
+  "mem_k": 10,
+  "nsre_w": 0.1,
+  "eval_every": 5,
+  "workers": 0,
+  "seed": 0,
+  "cpu": false,
+  "train_skip": 1,
+  "threads": 4,
+  "out": "results/traj_dgx",
+  "save_ckpt": "",
+  "mem_refresh": 2,
+  "t_start": 10,
+  "eval_only": ""
+ },
+ "test": {
+  "minADE": 0.7206239733988276,
+  "minFDE": 1.393743622393071,
+  "ADE1": 1.0859120737986414,
+  "FDE1": 2.2684678273111745,
+  "COL1": 0.0,
+  "GC_Frechet": 0.3874302015199766,
+  "GC_PathLen": 3.9596824855594845,
+  "GC_PathLen_GT": 4.230497307829804,
+  "GC_Tort": 1.01258780475805,
+  "GC_Tort_GT": 1.107840817237535,
+  "agents": 364
+ },
+ "time_s": 4.792180299758911
+}

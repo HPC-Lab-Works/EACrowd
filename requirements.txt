@@ -1,0 +1,7 @@
+torch>=2.2
+numpy>=1.24
+scipy>=1.10
+matplotlib>=3.7
+pyyaml
+# optional, LLM reasoning hook on GPU:
+# vllm>=0.5   (or transformers>=4.40)
