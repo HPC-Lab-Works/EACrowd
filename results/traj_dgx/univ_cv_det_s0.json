@@ -1,0 +1,43 @@
+{
+ "scene": "univ",
+ "model": "cv_det",
+ "seed": 0,
+ "config": {
+  "data": "data/raw",
+  "scene": "univ",
+  "model": "cv_det",
+  "epochs": 100,
+  "bs": 32,
+  "lr": 0.001,
+  "d": 256,
+  "heads": 8,
+  "K": 20,
+  "mem_k": 10,
+  "nsre_w": 0.1,
+  "eval_every": 5,
+  "workers": 0,
+  "seed": 0,
+  "cpu": false,
+  "train_skip": 1,
+  "threads": 4,
+  "out": "results/traj_dgx",
+  "save_ckpt": "",
+  "mem_refresh": 2,
+  "t_start": 10,
+  "eval_only": ""
+ },
+ "test": {
+  "minADE": 0.5241898325390745,
+  "minFDE": 1.1650966531816513,
+  "ADE1": 0.5241898325390745,
+  "FDE1": 1.1650966531816513,
+  "COL1": 0.16811868167995397,
+  "GC_Frechet": 0.2292331988078425,
+  "GC_PathLen": 2.4739685234169526,
+  "GC_PathLen_GT": 2.569763692763501,
+  "GC_Tort": 1.0,
+  "GC_Tort_GT": 1.0420228852833102,
+  "agents": 24334
+ },
+ "time_s": 5.124207973480225
+}

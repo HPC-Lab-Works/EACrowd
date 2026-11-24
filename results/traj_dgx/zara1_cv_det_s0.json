@@ -1,0 +1,43 @@
+{
+ "scene": "zara1",
+ "model": "cv_det",
+ "seed": 0,
+ "config": {
+  "data": "data/raw",
+  "scene": "zara1",
+  "model": "cv_det",
+  "epochs": 100,
+  "bs": 32,
+  "lr": 0.001,
+  "d": 256,
+  "heads": 8,
+  "K": 20,
+  "mem_k": 10,
+  "nsre_w": 0.1,
+  "eval_every": 5,
+  "workers": 0,
+  "seed": 0,
+  "cpu": false,
+  "train_skip": 1,
+  "threads": 4,
+  "out": "results/traj_dgx",
+  "save_ckpt": "",
+  "mem_refresh": 2,
+  "t_start": 10,
+  "eval_only": ""
+ },
+ "test": {
+  "minADE": 0.4272228776685328,
+  "minFDE": 0.952376837152822,
+  "ADE1": 0.4272228776685328,
+  "FDE1": 0.952376837152822,
+  "COL1": 0.039898132427843805,
+  "GC_Frechet": 0.2254752673727345,
+  "GC_PathLen": 4.5938024571978175,
+  "GC_PathLen_GT": 4.64453187832808,
+  "GC_Tort": 1.0,
+  "GC_Tort_GT": 1.0123499931954616,
+  "agents": 2356
+ },
+ "time_s": 4.4432103633880615
+}
